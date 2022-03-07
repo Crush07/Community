@@ -1,0 +1,17 @@
+server:
+  port: 9093
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/community?useSSL=false&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 67899876
+mybatis:
+mybatis-plus:
+  #  为实体类注册别名
+  type-aliases-package: com.hysea.hyseaappapi.entity
+#  mapper-locations: classpath:mapper/*Mapper.Xml
+#  configuration:
+#    #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    cache-enabled: true
